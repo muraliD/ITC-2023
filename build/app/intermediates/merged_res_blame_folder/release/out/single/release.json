@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_notification_bg.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_launch_background.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxxhdpi-v4_svprogresshud_error.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/drawable-xxxhdpi-v4/svprogresshud_error.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_notification_tile_bg.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/anim_svprogresshud_bg_fade_out.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/anim/svprogresshud_bg_fade_out.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_notification_template_icon_group.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxxhdpi-v4_svprogresshud_spinning.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/drawable-xxxhdpi-v4/svprogresshud_spinning.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_notification_action.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_corner.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-17:/drawable/corner.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/anim_svprogresshud_hudview_fade_in.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/anim/svprogresshud_hudview_fade_in.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_toast_custom.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-17:/layout/toast_custom.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_notification_icon_background.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_notification_bg_low.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxxhdpi_splash.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/menu_example_menu2.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/menu/example_menu2.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/anim_svprogresshud_bg_fade_in.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/anim/svprogresshud_bg_fade_in.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/anim_svprogresshud_hudview_fade_out.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/anim/svprogresshud_hudview_fade_out.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/menu_example_menu.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/menu/example_menu.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_svprogresshud_layout.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/layout/svprogresshud_layout.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_notification_template_part_time.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout-v21_notification_action.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_notification_action_tombstone.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-v21_launch_background.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi_splash.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-mdpi/splash.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-v21_notification_action_background.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi_splash.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxxhdpi-v4_svprogresshud_info.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/drawable-xxxhdpi-v4/svprogresshud_info.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-v21_background.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-v21/background.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_toast_bg.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-17:/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxxhdpi-v4_svprogresshud_success.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-packaged_res-16:/drawable-xxxhdpi-v4/svprogresshud_success.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xxhdpi_splash.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_custom_dialog.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi_splash.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable_background.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/drawable/background.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/layout_notification_template_part_chronometer.xml.flat",
+        "source": "com.itc.communityapp.itc_community.app-core-1.7.0-0:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.itc.communityapp.itc_community.app-merged_res-14:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.itc.communityapp.itc_community.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    }
+]

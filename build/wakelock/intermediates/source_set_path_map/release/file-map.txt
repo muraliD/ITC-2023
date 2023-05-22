@@ -1,0 +1,12 @@
+creativemaybeno.wakelock-jetified-annotation-experimental-1.1.0-0 /Users/muralidadi/.gradle/caches/transforms-3/92f81c86cb47b0606ff7c528a9c10404/transformed/jetified-annotation-experimental-1.1.0/res
+creativemaybeno.wakelock-jetified-window-1.0.0-beta04-1 /Users/muralidadi/.gradle/caches/transforms-3/bbc9b89e4f4922ee9a073295220ec2f8/transformed/jetified-window-1.0.0-beta04/res
+creativemaybeno.wakelock-core-1.6.0-2 /Users/muralidadi/.gradle/caches/transforms-3/dca35ffc4708ebd3380f43246fb41bac/transformed/core-1.6.0/res
+creativemaybeno.wakelock-jetified-window-java-1.0.0-beta04-3 /Users/muralidadi/.gradle/caches/transforms-3/ebef437b0e50cb83438c18a380dcfeab/transformed/jetified-window-java-1.0.0-beta04/res
+creativemaybeno.wakelock-main-4 /Users/muralidadi/.pub-cache/hosted/pub.dev/wakelock-0.6.2/android/src/main/res
+creativemaybeno.wakelock-release-5 /Users/muralidadi/.pub-cache/hosted/pub.dev/wakelock-0.6.2/android/src/release/res
+creativemaybeno.wakelock-pngs-6 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/generated/res/pngs/release
+creativemaybeno.wakelock-resValues-7 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/generated/res/resValues/release
+creativemaybeno.wakelock-rs-8 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/generated/res/rs/release
+creativemaybeno.wakelock-mergeReleaseResources-9 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/intermediates/incremental/release/mergeReleaseResources/merged.dir
+creativemaybeno.wakelock-mergeReleaseResources-10 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+creativemaybeno.wakelock-merged_res-11 /Users/muralidadi/Murali-2023/flutter-projects/build/wakelock/intermediates/merged_res/release

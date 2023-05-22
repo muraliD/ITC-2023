@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.itc.communityapp.itc_community.app-mergeReleaseResources-12:/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/1b4acc928f8e1d4facfec58e89bca5a9/transformed/jetified-exoplayer-core-2.18.1/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,194,258,329,406,480,564,646",
+                        "endColumns": "76,61,63,70,76,73,83,81,79",
+                        "endOffsets": "127,189,253,324,401,475,559,641,721"
+                    }
+                },
+                {
+                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/150d4194cdb3b38f9818d5ca5cf901c2/transformed/core-1.7.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "726",
+                        "endColumns": "100",
+                        "endOffsets": "822"
+                    }
+                }
+            ]
+        }
+    ]
+}

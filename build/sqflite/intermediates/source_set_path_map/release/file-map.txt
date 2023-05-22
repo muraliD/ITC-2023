@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-0 /Users/muralidadi/.gradle/caches/transforms-3/92f81c86cb47b0606ff7c528a9c10404/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-1 /Users/muralidadi/.gradle/caches/transforms-3/bbc9b89e4f4922ee9a073295220ec2f8/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-core-1.6.0-2 /Users/muralidadi/.gradle/caches/transforms-3/dca35ffc4708ebd3380f43246fb41bac/transformed/core-1.6.0/res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-3 /Users/muralidadi/.gradle/caches/transforms-3/ebef437b0e50cb83438c18a380dcfeab/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-main-4 /Users/muralidadi/.pub-cache/hosted/pub.dev/sqflite-2.2.4+1/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/muralidadi/.pub-cache/hosted/pub.dev/sqflite-2.2.4+1/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/muralidadi/Murali-2023/flutter-projects/build/sqflite/intermediates/merged_res/release

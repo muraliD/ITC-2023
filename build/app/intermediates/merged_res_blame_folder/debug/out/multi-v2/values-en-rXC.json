@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.itc.communityapp.itc_community.app-mergeDebugResources-12:/values-en-rXC/values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/150d4194cdb3b38f9818d5ca5cf901c2/transformed/core-1.7.0/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -82,6 +82,7 @@ class _LoginScreen extends State<LoginScreen> {
         UtilClass.hideProgress(context: context);
 
         if (response.status!.type == "Success") {
+
           Preferences.setUserDetails(json.encode(response.data!.user));
 
           Navigator.of(context).pushAndRemoveUntil(

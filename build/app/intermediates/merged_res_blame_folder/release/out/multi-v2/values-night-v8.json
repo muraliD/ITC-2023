@@ -4,14 +4,14 @@
             "outputFile": "com.itc.communityapp.itc_community.app-mergeReleaseResources-12:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/Murali-2023/flutter-projects/android/app/src/main/res/values-night/styles.xml",
+                    "source": "D:\\2030\\itc\\ITC-2023\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
-                        "startOffsets": "172,817",
+                        "startOffsets": "175,831",
                         "endLines": "7,16",
                         "endColumns": "12,12",
-                        "endOffsets": "475,981"
+                        "endOffsets": "482,997"
                     },
                     "to": {
                         "startLines": "2,6",

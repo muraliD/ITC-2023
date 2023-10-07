@@ -50,6 +50,44 @@ class Repository {
     dio.interceptors.add(LogInterceptor());
   }
 
+  static getUserId(){
+    var user = Preferences.getUserDetails();
+    var decoded = json.decode(user!);
+    final payload = UserL.fromJson(decoded);
+    return (payload.id).toString();
+  }
+
+  static getPassword(){
+    var user = Preferences.getUserDetails();
+    var decoded = json.decode(user!);
+    final payload = UserL.fromJson(decoded);
+    return (payload.password).toString();;
+
+  }
+
+  static getUserKey(){
+
+    var user = Preferences.getUserDetails();
+    var decoded = json.decode(user!);
+    final payload = UserL.fromJson(decoded);
+    return Uri.encodeComponent((payload.user_security_key).toString());
+
+  }
+
+  static getAppKey(){
+
+    var user = Preferences.getUserDetails();
+    var decoded = json.decode(user!);
+    final payload = UserL.fromJson(decoded);
+    return  "securityKey="+Uri.encodeComponent((payload.app_security_key).toString());
+
+  }
+  static getAppKeyDummy(){
+
+    return "securityKey=f9ed864b583304199c405999358e4a581915f353";
+  }
+
+
   static  getErrorResponse(){
 
 
@@ -70,7 +108,7 @@ class Repository {
 
     var response = await http.post(
         Uri.parse(EndPoints.registerAPI +
-            "?ref_code="+refcode+"&name="+name+"&c_code="+countryCode+"&mobile="+mobile+"&email="+email+"&pass="+Uri.encodeComponent(password)+"&newpass="+Uri.encodeComponent(cpassword)+"&terms="+term+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+            "?ref_code="+refcode+"&name="+name+"&c_code="+countryCode+"&mobile="+mobile+"&email="+email+"&pass="+Uri.encodeComponent(password)+"&newpass="+Uri.encodeComponent(cpassword)+"&terms="+term+"&"+getAppKeyDummy()),
         headers: getHeaders()
     );
 
@@ -107,7 +145,7 @@ class Repository {
 
     var response = await http.post(
         Uri.parse(EndPoints.forgotAPI +
-            "?username="+username+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+            "?username="+username+"&"+getAppKeyDummy()),
         headers: getHeaders()
     );
 
@@ -153,10 +191,10 @@ class Repository {
           email +
           "&password=" +
           Uri.encodeComponent(password) +
-          "&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "&"+getAppKeyDummy()),
          headers: getHeaders()
     );
-
+   // UtilClass.printWrapped('Login RES>>>>>${jsonDecode(response.body)}');
 
     dynamic parsed = {};
     try{
@@ -166,6 +204,7 @@ class Repository {
     }
   try{
     if (parsed["data"] != null) {
+
       parsed["data"]["user"]["password"] = password;
       loginResponse = LoginResponse.fromJson(parsed);
       return loginResponse;
@@ -188,7 +227,7 @@ class Repository {
 
     var response = await http.post(
         Uri.parse(EndPoints.changePasswordAPI +
-            "?id="+userid+"&oldPassword="+Uri.encodeComponent(password)+"&newPassword="+Uri.encodeComponent(newPassword)+"&confirmNewPassword="+Uri.encodeComponent(cNewpassword)+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+            "?id="+userid+"&oldPassword="+Uri.encodeComponent(password)+"&newPassword="+Uri.encodeComponent(newPassword)+"&confirmNewPassword="+Uri.encodeComponent(cNewpassword)+"&"+getAppKey()),
         headers: getHeaders()
     );
     
@@ -228,7 +267,7 @@ class Repository {
 
     var response = await http.post(
       Uri.parse(EndPoints.itcPriceAPI +
-          "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "?"+getAppKeyDummy()),
     );
 
     dynamic parsed = {};
@@ -269,7 +308,7 @@ try {
       Uri.parse(EndPoints.userdataAPI +
           "?id=" +
           userid +
-          "&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "&"+getAppKey()),
     );
 
 
@@ -304,7 +343,7 @@ try {
 
     var response = await http.post(
       Uri.parse(EndPoints.plansAPI +
-          "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "?"+getAppKey()),
         headers: getHeaders()
     );
 
@@ -343,7 +382,7 @@ try {
 
     var response = await http.post(
       Uri.parse(EndPoints.userTokensAPI +
-          "?id="+userid+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "?id="+userid+"&"+getAppKey()),
     );
 
 
@@ -380,7 +419,7 @@ try {
       Uri.parse(EndPoints.planDataAPI +
           "?plan_id=" +
           id +
-          "+&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "+&"+getAppKey()),
     );
 
 
@@ -414,7 +453,7 @@ try {
       Uri.parse(EndPoints.liveTokenDataAPI +
           "?plan_id=" +
           id +
-          "+&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk"),
+          "&"+getAppKey()),
     );
 
 
@@ -447,7 +486,7 @@ try {
 
     var response = await http.post(
       Uri.parse(EndPoints.planPurchaseApi +
-          "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk&user_id="+id+"&password="+password+"&plan_id="+plan),
+          "?"+getAppKey()+"&user_id="+id+"&password="+getUserKey()+"&plan_id="+plan),
     );
 
 
@@ -480,7 +519,7 @@ try {
 
     var response = await http.post(
       Uri.parse(EndPoints.userCheckAPI +
-          "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk&from_id="+from+"&to_id="+to),
+          "?"+getAppKey()+"&from_id="+from+"&to_id="+to),
     );
 
 
@@ -516,37 +555,39 @@ try {
     var urlAddress ="";
     if(type==1){
 
-      urlAddress = EndPoints.withDwrawBTEAPI + "?id="+id+"&password="+password+"&coins="+coins+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk";
+      urlAddress = EndPoints.withDwrawBTEAPI + "?id="+id+"&password="+getUserKey()+"&coins="+coins+"&"+getAppKey();
+
 
 
     }else if(type==2){
 
-      urlAddress =EndPoints.withDwrawETGAPI  + "?id="+id+"&password="+password+"&coins="+coins+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk";
+      urlAddress =EndPoints.withDwrawETGAPI  + "?id="+id+"&password="+getUserKey()+"&coins="+coins+"&"+getAppKey();
 
 
     }else if(type==3) {
 
-      urlAddress =EndPoints.withDwrawETEAPI + "?id="+id+"&password="+password+"&coins="+coins+"&to_user="+address+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk";
+      urlAddress =EndPoints.withDwrawETEAPI + "?id="+id+"&password="+getUserKey()+"&coins="+coins+"&to_user="+address+"&"+getAppKey();
 
 
     }
     else if(type==4) {
-      urlAddress =EndPoints.withDwrawGTGAPI +"?id="+id+"&password="+password+"&coins="+coins+"&to_user="+address+"&securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk";
+      urlAddress =EndPoints.withDwrawGTGAPI +"?id="+id+"&password="+getUserKey()+"&coins="+coins+"&to_user="+address+"&"+getAppKey();
 
 
 
     }else if(type==5) {
 
-      urlAddress =EndPoints.withDwrawBTXAPI + "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk&id="+id+"&password="+password+"&crypto_wallet_address="+address+"&coins="+coins;
+      urlAddress =EndPoints.withDwrawBTXAPI + "?"+getAppKey()+"&id="+id+"&password="+getUserKey()+"&crypto_wallet_address="+address+"&coins="+coins;
 
 
     }
 
-
+   // UtilClass.printWrapped('mmmmmmmm***8 RES>>>>>${urlAddress}');
 
     var response = await http.post(
       Uri.parse(urlAddress),
     );
+   // UtilClass.printWrapped('withd**** RES>>>>>${jsonDecode(response.body)}');
 
 
     dynamic parsed = {};
@@ -579,7 +620,7 @@ try {
 
     var response = await http.post(
       Uri.parse(EndPoints.historyAPI +
-          "?securityKey=ITC_GLOBAL_RR_MSK_%26^%@)(^_1230987_msk&id="+id),
+          "?"+getAppKey()+"&id="+id),
     );
 
 

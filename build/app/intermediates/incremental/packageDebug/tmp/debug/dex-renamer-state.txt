@@ -1,4 +1,0 @@
-#Sun May 07 11:00:50 IST 2023
-base.0=/Users/muralidadi/Murali-2023/flutter-projects/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

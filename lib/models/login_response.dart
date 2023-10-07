@@ -88,6 +88,8 @@ class UserL {
   String? email;
   String? password;
   int? passwordChanged;
+  String? app_security_key;
+  String? user_security_key;
 
   UserL(
       { this.password,
@@ -101,7 +103,11 @@ class UserL {
         this.countryCode,
         this.profilePic,
         this.email,
-        this.passwordChanged});
+        this.passwordChanged,
+        this.app_security_key,
+        this.user_security_key
+
+      });
 
   UserL.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -116,6 +122,8 @@ class UserL {
     email = json['email'];
     passwordChanged = json['password_changed'];
     password = json['password'];
+    app_security_key = json['app_security_key'];
+    user_security_key = json['user_security_key'];
   }
 
   Map<String, dynamic> toJson() {
@@ -132,6 +140,8 @@ class UserL {
     data['email'] = this.email;
     data['password'] = this.password;
     data['password_changed'] = this.passwordChanged;
+    data['app_security_key'] = this.app_security_key;
+    data['user_security_key'] = this.user_security_key;
     return data;
   }
 }

@@ -3,6 +3,6 @@
 3    package="org.leanflutter.plugins.flutter_svprogresshud" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/Users/muralidadi/.pub-cache/hosted/pub.dev/flutter_svprogresshud-1.0.0/android/src/main/AndroidManifest.xml
+5-->C:\Users\mdadi\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_svprogresshud-1.0.0\android\src\main\AndroidManifest.xml
 6
 7</manifest>

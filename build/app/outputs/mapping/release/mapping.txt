@@ -3,8 +3,8 @@
 # min_api: 19
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.1"}
-# pg_map_id: 0adeb7e
-# pg_map_hash: SHA-256 0adeb7e8179edd0963c624ae9e1a71a160e665cf3af74ec2aea1d2b9649fbb96
+# pg_map_id: 287ac5f
+# pg_map_hash: SHA-256 287ac5fd0b8c7cbee76ed16318d198e675d030fb27e6e0340940f457d78de534
 android.media.MediaCodec$CodecException -> android.media.MediaCodec$CodecException:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -21588,6 +21588,7 @@ io.flutter.plugins.pathprovider.Messages$StorageDirectory -> o2.h$c:
     io.flutter.plugins.pathprovider.Messages$StorageDirectory alarms -> j
     io.flutter.plugins.pathprovider.Messages$StorageDirectory music -> g
     io.flutter.plugins.pathprovider.Messages$StorageDirectory podcasts -> h
+    io.flutter.plugins.pathprovider.Messages$StorageDirectory[] $values() -> a
 io.flutter.plugins.pathprovider.PathProviderPlugin -> o2.i:
     android.content.Context context -> a
     java.lang.String getTemporaryPath() -> a
@@ -21655,6 +21656,7 @@ io.flutter.plugins.urllauncher.UrlLauncher$LaunchStatus -> q2.b$a:
     io.flutter.plugins.urllauncher.UrlLauncher$LaunchStatus OK -> e
     io.flutter.plugins.urllauncher.UrlLauncher$LaunchStatus NO_ACTIVITY -> f
     io.flutter.plugins.urllauncher.UrlLauncher$LaunchStatus ACTIVITY_NOT_FOUND -> g
+    io.flutter.plugins.urllauncher.UrlLauncher$LaunchStatus[] $values() -> a
 io.flutter.plugins.urllauncher.UrlLauncherPlugin -> q2.c:
     io.flutter.plugins.urllauncher.MethodCallHandlerImpl methodCallHandler -> a
     io.flutter.plugins.urllauncher.UrlLauncher urlLauncher -> b
@@ -26169,7 +26171,8 @@ org.leanflutter.svprogresshud.SVProgressHUDAnimationType -> s3.e:
     org.leanflutter.svprogresshud.SVProgressHUDAnimationType Native -> g
     org.leanflutter.svprogresshud.SVProgressHUDAnimationType[] $VALUES -> h
     java.lang.String name -> e
-    org.leanflutter.svprogresshud.SVProgressHUDAnimationType fromString(java.lang.String) -> a
+    org.leanflutter.svprogresshud.SVProgressHUDAnimationType[] $values() -> a
+    org.leanflutter.svprogresshud.SVProgressHUDAnimationType fromString(java.lang.String) -> b
 org.leanflutter.svprogresshud.SVProgressHUDDismissCompletion -> s3.f:
     void onCompletion() -> a
 org.leanflutter.svprogresshud.SVProgressHUDMaskType -> s3.g:
@@ -26180,14 +26183,16 @@ org.leanflutter.svprogresshud.SVProgressHUDMaskType -> s3.g:
     org.leanflutter.svprogresshud.SVProgressHUDMaskType Custom -> j
     org.leanflutter.svprogresshud.SVProgressHUDMaskType[] $VALUES -> k
     java.lang.String name -> e
-    org.leanflutter.svprogresshud.SVProgressHUDMaskType fromString(java.lang.String) -> a
+    org.leanflutter.svprogresshud.SVProgressHUDMaskType[] $values() -> a
+    org.leanflutter.svprogresshud.SVProgressHUDMaskType fromString(java.lang.String) -> b
 org.leanflutter.svprogresshud.SVProgressHUDStyle -> s3.h:
     org.leanflutter.svprogresshud.SVProgressHUDStyle Custom -> h
     org.leanflutter.svprogresshud.SVProgressHUDStyle Light -> f
     org.leanflutter.svprogresshud.SVProgressHUDStyle Dark -> g
     java.lang.String name -> e
     org.leanflutter.svprogresshud.SVProgressHUDStyle[] $VALUES -> i
-    org.leanflutter.svprogresshud.SVProgressHUDStyle fromString(java.lang.String) -> a
+    org.leanflutter.svprogresshud.SVProgressHUDStyle[] $values() -> a
+    org.leanflutter.svprogresshud.SVProgressHUDStyle fromString(java.lang.String) -> b
 org.leanflutter.svprogresshud.UIActivityIndicatorView -> s3.j:
     long delayMillis -> b
     float toDegrees -> c

@@ -40,6 +40,7 @@ class _RanksFragmentState extends State<RanksFragment> {
   User1? user1;
   late String userId;
   late String password;
+  int? percentage;
 
   void plansApiRefresh() {
     Preferences.initSharedPreference();
@@ -48,6 +49,7 @@ class _RanksFragmentState extends State<RanksFragment> {
     final payload = UserL.fromJson(decoded);
     userId = (payload.id).toString();
     password = (payload.password).toString();
+    percentage = payload.percentage;
 
     Future.delayed(Duration.zero, () async {
       UtilClass.showProgress(context: context);
@@ -347,6 +349,44 @@ class _RanksFragmentState extends State<RanksFragment> {
               title = "UPGRADE";
               color = Colors.orange;
             }
+          }
+
+
+          if(title == "UPGRADE"){
+
+
+            try{
+              try{
+                percentage = percentage != null?percentage:3;
+
+              }catch(err){
+                percentage = 3;
+
+              }
+
+              int length = val.currencySymbol!.length;
+
+              if(length>0){
+                double? pricVal1 =
+                (val.priceInCurrency != null ? double.parse(val.priceInCurrency!) : 0.00) as double?;
+                // amount = val.currencySymbol! + " " + pricVal1;
+
+                double amount11 = (pricVal1 != null ? pricVal1 *percentage!: 0);
+                double itcAmount11  = amount11/100+ amount11;
+                amount =   val.currencySymbol! + " " + itcAmount11.toString();
+
+              }
+
+
+              double amount1 = val.price != null ? (double.parse(val.price!)*percentage!) : 0.00;
+              double itcAmount1  = (amount1/100)+ (double.parse(val.price!));
+              itcAmount =   itcAmount1 != null ? ((itcAmount1.toStringAsFixed(2))) : "0.00";
+
+            }catch(err){
+
+            }
+
+
           }
 
           var object = {

@@ -90,6 +90,7 @@ class UserL {
   int? passwordChanged;
   String? app_security_key;
   String? user_security_key;
+  int? percentage;
 
   UserL(
       { this.password,
@@ -105,7 +106,8 @@ class UserL {
         this.email,
         this.passwordChanged,
         this.app_security_key,
-        this.user_security_key
+        this.user_security_key,
+        this.percentage
 
       });
 
@@ -124,6 +126,7 @@ class UserL {
     password = json['password'];
     app_security_key = json['app_security_key'];
     user_security_key = json['user_security_key'];
+    percentage = json['percentage'];
   }
 
   Map<String, dynamic> toJson() {
@@ -142,6 +145,7 @@ class UserL {
     data['password_changed'] = this.passwordChanged;
     data['app_security_key'] = this.app_security_key;
     data['user_security_key'] = this.user_security_key;
+    data['percentage'] = this.percentage;
     return data;
   }
 }
